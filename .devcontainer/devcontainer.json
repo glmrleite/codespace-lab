@@ -1,0 +1,7 @@
+{
+  "name": "Simple Nginx Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "forwardPorts": [80],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y nginx",
+  "postStartCommand": "sudo service nginx start"
+}
